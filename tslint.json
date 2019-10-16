@@ -8,6 +8,7 @@
     },
     "component-class-suffix": true,
     "contextual-lifecycle": true,
+    "curly": true,
     "directive-class-suffix": true,
     "directive-selector": [
       true,
@@ -43,6 +44,16 @@
         ]
       }
     ],
+    "no-conditional-assignment": true,
+    "no-eval": true,
+    "no-invalid-template-strings": true,
+    "no-null-keyword": true,
+    "no-shadowed-variable": true,
+    "no-unsafe-finally": true,
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
     "no-consecutive-blank-lines": false,
     "no-console": [
       true,
@@ -52,7 +63,11 @@
       "timeEnd",
       "trace"
     ],
+    "no-any": true,
+    "no-for-in-array": true,
+    "no-for-in": true,
     "no-empty": false,
+    "no-empty-interface": true,
     "no-inferrable-types": [
       true,
       "ignore-params"
@@ -66,7 +81,8 @@
       "as-needed"
     ],
     "object-literal-sort-keys": false,
-    "ordered-imports": false,
+    "ordered-imports": true,
+    "indent": [true, "spaces", 4],
     "quotemark": [
       true,
       "single"
