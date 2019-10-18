@@ -1,11 +1,15 @@
 import { Component } from '@angular/core';
 
+import { items } from '../items';
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  selector: 'app-todo-list',
+  templateUrl: './todo-list.component.html',
+  styleUrls: ['./todo-list.component.css']
 })
-export class AppComponent  {}
+export class TodoListComponent {
+  items = items;
+}
 
 
 /*
