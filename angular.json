@@ -111,6 +111,7 @@
               "**/e2e/**",
               "**/*.spec.ts",
               "src/test.ts",
+              "src/polyfills.ts",
               "src/environments/**"
             ]
           }
