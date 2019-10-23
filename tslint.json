@@ -1,8 +1,9 @@
 {
   "extends": "tslint:recommended",
   "rules": {
-    "array-type": false,
+    "array-type": [true, "array-simple"],
     "arrow-parens": false,
+    "arrow-return-shorthand": true,
     "deprecation": {
       "severity": "warning"
     },
@@ -54,7 +55,7 @@
     "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
-    "no-consecutive-blank-lines": false,
+    "no-consecutive-blank-lines": true,
     "no-console": [
       true,
       "debug",
@@ -66,7 +67,7 @@
     "no-any": true,
     "no-for-in-array": true,
     "no-for-in": true,
-    "no-empty": false,
+    "no-empty": true,
     "no-empty-interface": true,
     "no-inferrable-types": [
       true,
@@ -85,8 +86,13 @@
     "indent": [true, "spaces", 4],
     "quotemark": [
       true,
-      "single"
+      "single",
+      "avoid-escape", 
+      "avoid-template"
     ],
+    "eofline": true,
+    "import-spacing": true,
+    "align": [true, "parameters", "statements", "arguments", "members", "elements"],
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
@@ -96,9 +102,21 @@
     "no-output-on-prefix": true,
     "no-output-rename": true,
     "no-outputs-metadata-property": true,
+    "prefer-const": true,
+    "use-isnan": true,
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
+    "triple-equals": true,
+    "no-duplicate-switch-case": true,
+    "file-name-casing": [true, "kebab-case"],
+    "interface-over-type-literal": true,
+    "no-boolean-literal-compare": true,
+    "space-before-function-paren": [true, "never"],
+    "unnecessary-else": true,
+    "newline-before-return": true,
+    "no-irregular-whitespace": true,
+    "semicolon": [true, "always"],
     "use-pipe-transform-interface": true
   },
   "rulesDirectory": [
