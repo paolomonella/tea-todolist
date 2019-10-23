@@ -52,7 +52,6 @@
     "no-shadowed-variable": true,
     "no-unsafe-finally": true,
     "no-unused-expression": true,
-    "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-consecutive-blank-lines": true,
@@ -66,7 +65,6 @@
     ],
     "no-any": true,
     "no-for-in-array": true,
-    "no-for-in": true,
     "no-empty": true,
     "no-empty-interface": true,
     "no-inferrable-types": [
@@ -95,6 +93,7 @@
     "align": [true, "parameters", "statements", "arguments", "members", "elements"],
     "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
     "no-conflicting-lifecycle": true,
+    "no-trailing-whitespace": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,
     "no-inputs-metadata-property": true,
